@@ -9,7 +9,7 @@ object Model {
           name = "spark_application",
           superTypes = Seq("Process"),
           typeVersion = "1.0",
-          attributesDefs = Seq(
+          attributeDefs = Seq(
             AtlasAttribute("startTime","date"),
             AtlasAttribute("endTime","date")
           ))))
