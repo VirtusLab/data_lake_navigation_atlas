@@ -18,7 +18,7 @@ object API {
                           name: String,
                           superTypes: Seq[String],
                           typeVersion: String,
-                          attributesDefs: Seq[AtlasAttribute]
+                          attributeDefs: Seq[AtlasAttribute]
                           )
   case class AtlasAttribute(
                            name: String,
